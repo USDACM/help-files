@@ -1,0 +1,4 @@
+The github help, and in particular the bootcamp, is very helpful.  
+
+Also check out http://www.vogella.com/articles/Git/article.html for more in-depth uses of git.
+

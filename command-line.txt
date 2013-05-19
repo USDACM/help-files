@@ -1,0 +1,27 @@
+/* Note, for all of these commands there are loads of options.  We only present some basic ones here */
+
+Compile and run java from command line:
+    javac my-program.java
+    java my-program   //assuming your class with the main method is "my-program"
+
+Compile and run C++ programs from command line:
+    g++ -g -Wall -o runthis my-program.cpp
+    ./runthis
+    //if you have more than one file, I recommend a makefile (tutorial coming)
+
+Compress/uncompress files:
+    [files] can be *.c *.java, file-name.c, etc.  Basically anything that designates the files you are interested in.
+    compress to .tgz file:
+        tar -zcvf name-of-archive.tgz [files]
+    decompress from .tgz:
+        tar -zxvf name-of-archive.tgz
+
+    compress to .tbz2 file:
+        tar -jcvf name-of-archive.tbz2 [files]
+    decompress from .tbz2:
+        tar -jxvf name-of-archive.tbz2
+
+    compress to .gz file:
+        gzip [files]
+    decompress from .gz:
+        gzip -d name-of-archive.gz
