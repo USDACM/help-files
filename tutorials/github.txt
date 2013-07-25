@@ -5,7 +5,11 @@ Also check out http://www.vogella.com/articles/Git/article.html for more in-dept
 !!!COMMIT FROM LINUX LAB!!!
 Currently, the linux lab is using git version 1.7.1 so you might <will> have
 some trouble pushing your commits to github.  To get around this, after you
-clone a repository, type:
-   git remote set-url origin https://<your username>@github.com/USDACM/<repository>.git
+clone a repository, go into:
+    <repository>/.git/config
+file and where it says
+    "url = https://github.com/"....
+    change that to
+   https://<your username>@github.com/USDACM/<repository>.git
 
 
