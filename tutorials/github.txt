@@ -2,3 +2,10 @@ The github help, and in particular the bootcamp, is very helpful.
 
 Also check out http://www.vogella.com/articles/Git/article.html for more in-depth uses of git.
 
+!!!COMMIT FROM LINUX LAB!!!
+Currently, the linux lab is using git version 1.7.1 so you might <will> have
+some trouble pushing your commits to github.  To get around this, after you
+clone a repository, type:
+   git remote set-url origin https://<your username>@github.com/USDACM/<repository>.git
+
+
