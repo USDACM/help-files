@@ -8,10 +8,10 @@ First, go to
 
 Now, open a terminal, `Applications->System Tools->Terminal` and type the following:
 
-`cd Downloads
-unzip help-files-master.zip
-cd help-files-master
-./operainstall`
+`cd Downloads`
+`unzip help-files-master.zip`
+`cd help-files-master`
+`./operainstall`
 
 Now, when the configuration operations come up, just hit `Enter` for everything (don't actually type something unless you know what you're changing!)
 Eventually it will all be finished and you can type
