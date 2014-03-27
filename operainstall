@@ -1,0 +1,6 @@
+#!/bin/bash
+
+wget http://get.geo.opera.com/pub/opera/linux/1216/opera-12.16-1860.i386.linux.tar.xz
+tar -xf opera-12.16-1860.i386.linux.tar.xz
+cd opera-12.16-1860.i386.linux
+./install
