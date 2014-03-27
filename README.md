@@ -6,12 +6,12 @@ Installing Opera Browser
 First, go to
  `https://github.com/USDACM/help-files` and click the "Download ZIP" button at the right-hand side
 
-Now, open a terminal, `Applications->System Tools->Terminal` and type the following:
+Now, open a terminal, `Applications->System Tools->Terminal` and type the following (you can copy and paste):
 
-`cd Downloads`
-`unzip help-files-master.zip`
-`cd help-files-master`
-`./operainstall`
+`cd Downloads;
+unzip help-files-master.zip;
+cd help-files-master;
+./operainstall`
 
 Now, when the configuration operations come up, just hit `Enter` for everything (don't actually type something unless you know what you're changing!)
 Eventually it will all be finished and you can type
